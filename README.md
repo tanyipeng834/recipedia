@@ -11,7 +11,8 @@ Morden web application that intends to reduce food wastage by maximising the lef
 # Development
 ```
 BackEnd:
-Uses Python flask for the backend of this web application  and to connect with a sqlite (RDBMS) database
+Uses Python flask for the backend of this web application  and to connect with a sqlite (RDBMS) database and connect to 
+a Spoonacular API to parse out recipe which has the most leftover ingredients and returns the recipe instructions also.
 
 FrontEnd:
 Use Bootstrap for the alerts when facing exceptions.Furthermore ,javascript is used for validation logic for the register
