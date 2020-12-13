@@ -1,6 +1,6 @@
 # Recipedia
 ```
-Morden web application that intends to reduce food wastage by maximising the leftover ingredeients in the fridge.
+Morden web application that intends to reduce food wastage by maximising the leftover ingredients in the fridge.
 ```
 # Features
 - Fridge Feature (Allows users to save all their ingredients in a virtual fridge and also delete when applicable.)
