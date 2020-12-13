@@ -15,8 +15,8 @@ Uses Python flask for the backend of this web application  and to connect with a
 
 FrontEnd:
 Use Bootstrap for the alerts when facing exceptions.Furthermore ,javascript is used for validation logic for the register
-page if the password doesn't match the comfirm password section to reduce runtime.For the static design , Html and 
-css are utilised and responsive web design principals such as flexbox are used to make the website responsive.
+page if the password doesn't match the comfirm password section to reduce runtime.For the static design , HTML and 
+CSS are utilised and responsive web design principles such as flexbox are used to make the website responsive.
 ```
 
 
