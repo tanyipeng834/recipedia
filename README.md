@@ -1,2 +1,2 @@
 # Recipedia
-![Recepedia Logo](./webLogo.png)
+![Recepedia Logo](webLogo.png)
