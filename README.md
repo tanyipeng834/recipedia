@@ -14,8 +14,13 @@ BackEnd:
 Uses Python flask for the backend of this web application  and to connect with a sqlite (RDBMS) database
 
 FrontEnd:
-Use Bootstrap for the alerts when facing exceptions.Also , use javascript for validation logic for the register
+Use Bootstrap for the alerts when facing exceptions.Furthermore ,javascript is used for validation logic for the register
 page if the password doesn't match the comfirm password section to reduce runtime.For the static design , Html and 
 css are utilised and responsive web design principals such as flexbox are used to make the website responsive.
+```
+
+
+# Deployment
+[![Recipedia Video](http://img.youtube.com/vi/RurqXAiLmqE/0.jpg)](http://www.youtube.com/watch?v=RurqXAiLmqE "Video Title")
 
 
