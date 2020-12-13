@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipedia:Find Recipe</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="../static/findRecipe.css">
+
+
+
+
+
+</head>
+<body>
+    {% if get_flashed_messages() %}
+            <header>
+                <div class="alert" role="alert">
+                    {{ get_flashed_messages() | join(" ") }}
+                </div>
+            </header>
+
+        {% endif %}
+    <header>
+        <nav>
+  <div class="topnav">
+    <img src="../static/webLogo.png" alt="Logo">
+    <a href="/">FRIDGE</a>
+    <a  class= "active" href="/findRecipe">RECIPE</a>
+
+
+   <div class="logout">
+    <a href="/logout">LOGOUT</a>
+   </div>
+</div>
+</nav>
+  </header>
+<div class="background">
+<div class="image">
+<b>MEAL</b>
+<img src="{{mealImage}}" alt ="Picture of food">
+<p>{{title}}</p>
+
+
+
+
+
+</div>
+<div class= "ingredients">
+{% for each in food.ingredient %}
+<h1>{{each.original}}</h1>
+
+<img src="{{each.image}}" alt ="Picture of food">
+<img src="../static/cross.png" alt="Cross">
+{% endfor %}
+{% for each in food.unusedIngredient %}
+<h1>{{each.original}}</h1>
+
+<div class="tick">
+
+<img src="{{each.image}}" alt ="Picture of food">
+<img  id ="tick" src="../static/tick1.png" alt="Cross">
+</div>
+{% endfor %}
+<div class="footer">
+    <b>Instructions</b>
+    <a href="/recipe"><img src="../static/Group 8.png" alt="button"></a>
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
+
+

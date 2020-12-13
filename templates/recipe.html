@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instructions</title>
+</head>
+<body>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="../static/recipe.css">
+
+
+
+
+
+</head>
+<body>
+    {% if get_flashed_messages() %}
+            <header>
+                <div class="alert" role="alert">
+                    {{ get_flashed_messages() | join(" ") }}
+                </div>
+            </header>
+
+        {% endif %}
+    <header>
+        <nav>
+  <div class="topnav">
+    <img src="../static/webLogo.png" alt="Logo">
+    <a href="/">FRIDGE</a>
+    <a  class= "active" href="/findRecipe">RECIPE</a>
+
+
+   <div class="logout">
+    <a href="/logout">LOGOUT</a>
+   </div>
+</div>
+</nav>
+  </header>
+<div class="background">
+<div class="recipe">
+<b>{{title}}</b>
+<img src="../static/book.png"
+<div class="instructions">
+{% for each in instruction %}
+<div class="step">
+<img src="../static/tick10.png">
+<b>{{each.number}}</b>
+<p>{{each.step}}</p>
+
+
+</div>
+{% endfor %}
+
+<div class="footer">
+
+
+     <a href="/findRecipe"><img src="../static/rightarrow.png" alt="button"></a>
+     <b>Ingredients</b>
+
+
+
+</div>
+</div>
+
+
+</div>
+
+
+</body>
+</html>

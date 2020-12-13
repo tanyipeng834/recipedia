@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="/static/index.css/"rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    {% if get_flashed_messages() %}
+            <header>
+                <div class="alert" role="alert">
+                    {{ get_flashed_messages() | join(" ") }}
+                </div>
+            </header>
+        {% endif %}
+    <div class="hero-bg">
+        <div class="login">
+              <img src="../static/webLogo.png" alt="Logo">
+
+
+                <form action="/login" method="post">
+                <label><b>Username</b></label>
+                <input type="text" placeholder="" name="uname" required>
+
+                <label><b>Password</b></label>
+                <input type="password" placeholder="" name="psw" required>
+
+                <button type="submit">Login</button>
+                </form>
+                <div class="register">
+                    <p>Need an Account?<a href="/register">Register Here</a></p>
+
+
+
+
+                </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>

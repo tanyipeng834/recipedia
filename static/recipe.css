@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body,html{
+  height:100%;
+  margin:0;
+  overflow-y: scroll;
+  border:0;
+}
+
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+    display:flex;
+    margin-left:3em;
+
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    display:inline-block;
+    color: #f2f2f2;
+
+    padding: 3em 0 0 3em;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight:bold;
+    font-family:Montserrat,sans-serif;
+
+  }
+
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ffffff;
+    color:#00430C;
+  }
+
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #ffffff;
+    color:#00430C;
+  }
+  .topnav img{
+      margin:3em;
+      width: 5%;
+      height:auto;
+  }
+
+
+.logout{
+
+    padding-left:20em;
+}
+.background{
+    background-image: url(../static/background.png);
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+
+
+
+}
+.recipe{
+
+  background-image:url(../static/recipe1.png);
+  height:100%;
+  width:80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align:center;
+  margin-left:9em;
+
+
+}
+
+.step b{
+  display:block;
+  font-family:'Dancing Script', cursive;
+  font-size:1em;
+
+}
+.step img{
+   display:block;
+  font-family:'Dancing Script', cursive;
+  font-size:1em;
+
+}
+.recipe img{
+  text-align:center;
+
+  width:5%;
+  height:auto;
+}
+
+.footer{
+  float:left;
+
+
+}
+.footer img{
+  width:25%;
+  height:auto;
+}

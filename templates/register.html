@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <link rel="stylesheet" href="../static/register.css">
+
+</head>
+<body>
+    {% if get_flashed_messages() %}
+            <header>
+                <div class="alert" role="alert">
+                    {{ get_flashed_messages() | join(" ") }}
+                </div>
+            </header>
+        {% endif %}
+    <div class="hero-bg">
+        <div class="login">
+              <img src="../static/webLogo.png" alt="Logo">
+
+
+                <form action="/register" method="post">
+                <label><b>Username</b></label>
+
+                <input type="text" placeholder="" name="uname" required>
+
+                <label><b>Password</b></label>
+                <input type="password" placeholder="" name="psw" id="txtPassword" required>
+                <label ><b>Comfirmation</b></label>
+                <input type="password" name="Comfirmation" id="txtConfirmPassword"required>
+
+                <button type="submit"id="btnSubmit" onclick="return Validate()" >Register</button>
+                </form>
+                <div class="register">
+                    <a href="/login">Already Have an account?</p>
+
+<script type="text/javascript">
+    function Validate() {
+        var password = document.getElementById("txtPassword").value;
+        var confirmPassword = document.getElementById("txtConfirmPassword").value;
+        if (password != confirmPassword) {
+            alert("Passwords do not match.");
+            return false;
+        }
+        return true;
+    }
+</script>
+
+
+                </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</body>
+</html>

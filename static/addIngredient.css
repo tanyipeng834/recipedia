@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body,html{
+  height:100%;
+}
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+    display:flex;
+    margin-left:3em;
+
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    display:inline-block;
+    color: #f2f2f2;
+
+    padding: 3em 0 0 3em;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight:bold;
+    font-family:Montserrat,sans-serif;
+
+  }
+
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ffffff;
+    color:#00430C;
+  }
+
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #ffffff;
+    color:#00430C;
+  }
+  .topnav img{
+      margin:3em;
+      width: 5%;
+      height:auto;
+  }
+  body{margin:0;}
+
+.logout{
+
+    padding-left:20em;
+}
+.background{
+    background-image: url(../static/background.png);
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+
+
+}
+
+.text{
+
+  text-align:center;
+  font-family: 'Dancing Script', cursive;
+  padding-top:4em;
+}
+
+.login label{
+  display:block;
+  font-weight:bold;
+  font-family:Montserrat,sans-serif;
+  font-size:1em;
+  margin-bottom:0.5em;
+}
+.login{
+
+  width:40%;
+  height:auto;
+ margin:auto;
+  box-sizing: border-box;
+  text-align:center;
+  background-color: #ECC9A0;
+  position: relative;
+  padding:6em 0 6em 0;
+}
+.login button{
+  display:block;
+  position:absolute;
+  bottom:1em;
+  right:5em;
+  padding: 1em 2em 1em 2em;
+  background-color:#00430C ;
+  color:#ffffff;
+  border:none;
+  font-family: Montserrat,sans-serif;
+  font-weight:bold;
+  border-radius: 5px;
+  cursor:pointer;
+}
+.login input[type=text]{
+
+padding:0.5em 4em 0.5em 4em ;
+
+}
+svg{
+  position:absolute;
+  right:20em;
+  top:16em;
+
+
+
+}
+
+
+
+
+.footer img {
+  width:30%;
+  height:auto;
+  margin-top: 0.5em;
+
+
+
+
+
+}
+.footer b{
+  font-size: 2em;
+  font-family:Montserrat,sans-serif;
+
+
+}
+.footer{
+  margin-top: 10em;
+  display:flex;
+  float: right;
+}

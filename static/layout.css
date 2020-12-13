@@ -1,0 +1,62 @@
+body,html{
+  height:100%;
+}
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+    display:flex;
+    margin-left:3em;
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    display:inline-block;
+    color: #f2f2f2;
+ font-family:Montserrat,sans-serif;
+    padding: 2em 0 0 3em;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight:bold;
+
+  }
+
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ffffff;
+    color:#00430C;
+  }
+
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #ffffff;
+    color:#00430C;
+  } .logo{
+    display:inline-block;
+  }
+ .logo img{
+      margin:3em;
+      width: 5%;
+      height:auto;
+  }
+
+
+  body{margin:0;
+
+
+
+  }
+
+.logout{
+
+    padding-left:20em;
+}
+.hero-bg{
+
+    background-image: url(../images/background.png);
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

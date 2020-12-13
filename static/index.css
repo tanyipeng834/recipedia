@@ -1,0 +1,119 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family:Montserrat,sans-serif;
+    margin:0;
+    height:100%;
+
+
+
+
+}
+.hero-bg{
+    background-image: url(../background.png);
+
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:15em;
+
+}
+
+ .login{
+     width:85%;
+     height:auto;
+     background-color: #ECC9A0;
+
+     margin:auto;
+     padding-top: 1em;
+     text-align:center;
+     padding-bottom: 2em;
+
+
+
+
+
+ }
+
+
+
+
+
+
+.login img {
+    max-width:10%;
+    height:auto;
+    display:block;
+
+    margin:0 auto;
+
+
+}
+.login b{
+    display:block;
+    padding-right:1em;
+    font-weight:400;
+
+
+
+}
+.login button{
+    display:block;
+    margin: 0 auto;
+}
+.register {
+    display:inline-block;
+
+    text-align:none;
+}
+input[type=text]{
+    padding: 1em 24em 1em 0em;
+    border:none;
+    border-radius: 2px;
+    font-weight:700;
+    width:20%;
+
+
+
+}
+input[type=password]{
+    padding: 1em 24em 1em 0em;
+    border:none;
+    border-radius: 2px;
+    font-weight: 700;
+    width:20%;
+
+}
+button[type=submit]{
+    margin-top:0.5em;
+    background-color:#00430C;
+    color:white;
+    font-weight: 700;
+    border: none;
+    border-radius: 2px;
+    padding: 1em 12em 1em 12em;
+    cursor: pointer;
+}
+
+.register a {
+    color:#00430C;
+    text-decoration: none;
+    font-weight:700;
+    cursor: pointer;
+
+
+}
+.alert{
+  padding: 3em;
+  background-color: #f44336; /* Red */
+  color: white;
+  font-weight:bold;
+  text-align:center;
+  border-radius:2px;
+
+}
+
+
