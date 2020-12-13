@@ -24,7 +24,7 @@ css are utilised and responsive web design principals such as flexbox are used t
 [![Recipedia Video](http://img.youtube.com/vi/RurqXAiLmqE/0.jpg)](http://www.youtube.com/watch?v=RurqXAiLmqE "Recipedia")
 
 Shows the 2 main functions of the Recipedia
-1.  Find Recipe for leftover ingredients in fridge.
-2.  Store and delete ingredients in your virtual fridge for tracking purposes.
+1.  Bird
+2.  McHale
 
 
