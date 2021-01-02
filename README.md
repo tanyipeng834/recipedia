@@ -12,14 +12,14 @@ Modern web application that intends to reduce food wastage by maximising the lef
 ```
 BackEnd:
 Uses Python flask for the backend of this web application  and to connect with a sqlite (RDBMS) database and connect to 
-a Spoonacular API to parse out recipe which has the most leftover ingredients and returns the recipe instructions also.
+the [Spoonacular API](https://spoonacular.com/food-api) to parse out recipe which has the most leftover ingredients and returns the recipe instructions also.
 
 FrontEnd:
 Use Bootstrap for the alerts when facing exceptions.Furthermore ,javascript is used for validation logic for the register
 page if the password doesn't match the comfirm password section to reduce runtime.For the static design , HTML and 
 CSS are utilised and responsive web design principles such as flexbox are used to make the website responsive.
 ```
-[Spoonacular API](https://spoonacular.com/food-api)
+
 
 
 
