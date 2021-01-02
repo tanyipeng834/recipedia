@@ -1,6 +1,6 @@
 # Recipedia Summary
 ```
-Morden web application that intends to reduce food wastage by maximising the leftover ingredients in the fridge.
+Modern web application that intends to reduce food wastage by maximising the leftover ingredients in the fridge.
 ```
 # Features
 - Fridge Feature (Allows users to save all their ingredients in a virtual fridge and also delete when applicable.)
@@ -19,6 +19,8 @@ Use Bootstrap for the alerts when facing exceptions.Furthermore ,javascript is u
 page if the password doesn't match the comfirm password section to reduce runtime.For the static design , HTML and 
 CSS are utilised and responsive web design principles such as flexbox are used to make the website responsive.
 ```
+[Spoonacular API](https://spoonacular.com/food-api)
+
 
 
 # Deployment
