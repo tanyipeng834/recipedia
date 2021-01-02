@@ -1,4 +1,4 @@
-# Recipedia
+# Recipedia Summary
 ```
 Morden web application that intends to reduce food wastage by maximising the leftover ingredients in the fridge.
 ```
@@ -22,6 +22,7 @@ CSS are utilised and responsive web design principles such as flexbox are used t
 
 
 # Deployment
+Please click on the image to be redirected to the yotube link of this web application
 [![Recipedia Video](http://img.youtube.com/vi/RurqXAiLmqE/0.jpg)](http://www.youtube.com/watch?v=RurqXAiLmqE "Recipedia")]
 
 Shows the 2 main functions of the Recipedia.
