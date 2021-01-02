@@ -25,7 +25,7 @@ CSS are utilised with responsive web design principles applied such as flexbox  
 
 
 # Deployment
-Please click on the image to be redirected to the yotube link of this web application
+Please click on the image to be redirected to the Youtube link of this web application
 [![Recipedia Video](http://img.youtube.com/vi/RurqXAiLmqE/0.jpg)](http://www.youtube.com/watch?v=RurqXAiLmqE "Recipedia")]
 
 Shows the 2 main functions of the Recipedia.
